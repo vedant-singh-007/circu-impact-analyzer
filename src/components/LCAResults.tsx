@@ -31,6 +31,8 @@ export interface LCAResults {
   material: string;
   weight: number;
   recycledPercent: number;
+  materialSource: 'virgin' | 'scrap';
+  previousUse?: string;
   linear: {
     co2e: number;
     energy: number;

@@ -26,9 +26,9 @@
     --secondary: 82 82 91;
     --secondary-foreground: 255 255 255;
 
-    /* Muted tones */
-    --muted: 212 212 216;
-    --muted-foreground: 113 113 122;
+    /* Muted tones - ensuring proper grey tones */
+    --muted: 230 230 233;
+    --muted-foreground: 100 100 100;
 
     /* Accent - Mineral gray */
     --accent: 115 115 115;

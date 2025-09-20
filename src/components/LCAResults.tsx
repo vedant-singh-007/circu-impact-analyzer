@@ -23,7 +23,8 @@ import {
   Download,
   RefreshCw,
   Award,
-  AlertCircle
+  AlertCircle,
+  ArrowLeft
 } from 'lucide-react';
 import { toast } from '@/components/ui/use-toast';
 
@@ -134,6 +135,19 @@ export const LCAResults = ({ results, onReset, onDownloadPDF }: LCAResultsProps)
 
   return (
     <div id="results-container" className="space-y-8 fade-in" style={{ animation: 'fadeIn 0.8s ease-in-out' }}>
+      {/* Back Button */}
+      <div className="flex justify-start">
+        <Button 
+          variant="outline" 
+          size="lg" 
+          onClick={onReset}
+          className="gap-2"
+        >
+          <ArrowLeft className="w-4 h-4" />
+          Back to Form
+        </Button>
+      </div>
+
       {/* Key Metrics */}
       <Card className="glass-effect border-0 shadow-xl">
         <CardHeader className="text-center">

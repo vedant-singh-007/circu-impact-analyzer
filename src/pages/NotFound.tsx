@@ -12,7 +12,7 @@ const NotFound = () => {
   }, [location.pathname]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-stone-100 via-green-50 to-blue-50 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-stone-200 via-gray-100 to-stone-300 flex items-center justify-center p-4">
       <Card className="glass-effect border-0 shadow-xl max-w-md w-full">
         <CardHeader className="text-center">
           <div className="flex justify-center mb-4">

@@ -133,7 +133,7 @@ export const LCAResults = ({ results, onReset, onDownloadPDF }: LCAResultsProps)
   };
 
   return (
-    <div className="space-y-8 fade-in" style={{ animation: 'fadeIn 0.8s ease-in-out' }}>
+    <div id="results-container" className="space-y-8 fade-in" style={{ animation: 'fadeIn 0.8s ease-in-out' }}>
       {/* Key Metrics */}
       <Card className="glass-effect border-0 shadow-xl">
         <CardHeader className="text-center">

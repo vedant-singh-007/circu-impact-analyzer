@@ -6,32 +6,32 @@
 
 @layer base {
   :root {
-    /* Professional engineering theme - muted, technical colors */
-    --background: 248 250 252;
-    --foreground: 15 23 42;
+    /* Professional metallurgy theme - rock and mineral tones */
+    --background: 245 245 244;
+    --foreground: 28 25 23;
 
     /* Card colors */
     --card: 255 255 255;
-    --card-foreground: 15 23 42;
+    --card-foreground: 28 25 23;
 
     /* Interactive elements */
     --popover: 255 255 255;
-    --popover-foreground: 15 23 42;
+    --popover-foreground: 28 25 23;
 
-    /* Primary - Professional blue */
-    --primary: 30 64 175;
+    /* Primary - Slate gray like granite */
+    --primary: 71 85 105;
     --primary-foreground: 255 255 255;
 
-    /* Secondary - Steel gray */
-    --secondary: 71 85 105;
+    /* Secondary - Charcoal gray */
+    --secondary: 55 65 81;
     --secondary-foreground: 255 255 255;
 
     /* Muted tones */
-    --muted: 241 245 249;
-    --muted-foreground: 100 116 139;
+    --muted: 231 229 228;
+    --muted-foreground: 120 113 108;
 
-    /* Accent - Technical orange */
-    --accent: 234 88 12;
+    /* Accent - Iron oxide gray */
+    --accent: 87 83 78;
     --accent-foreground: 255 255 255;
 
     /* Destructive */
@@ -39,9 +39,9 @@
     --destructive-foreground: 255 255 255;
 
     /* Borders and inputs */
-    --border: 226 232 240;
-    --input: 226 232 240;
-    --ring: 30 64 175;
+    --border: 214 211 209;
+    --input: 214 211 209;
+    --ring: 71 85 105;
 
     /* Radius */
     --radius: 0.75rem;
@@ -56,15 +56,15 @@
     --sidebar-border: 231 229 228;
     --sidebar-ring: 34 197 94;
 
-    /* Professional gradients - subtle and technical */
-    --gradient-primary: linear-gradient(135deg, hsl(30 64% 17%) 0%, hsl(234 88% 12%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(71 85% 10%) 0%, hsl(30 64% 17%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(234 88% 12%) 0%, hsl(220 38% 38%) 100%);
+    /* Professional gradients - rock and mineral tones */
+    --gradient-primary: linear-gradient(135deg, hsl(220 13% 18%) 0%, hsl(215 28% 17%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(215 28% 17%) 0%, hsl(220 13% 18%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(30 7% 34%) 0%, hsl(30 6% 25%) 100%);
     
     /* Professional shadows */
-    --shadow-card: 0 1px 3px 0 hsl(15 23% 42% / 0.1), 0 1px 2px 0 hsl(15 23% 42% / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(15 23% 42% / 0.1), 0 4px 6px -2px hsl(15 23% 42% / 0.05);
-    --shadow-focus: 0 0 0 3px hsl(30 64% 17% / 0.1);
+    --shadow-card: 0 1px 3px 0 hsl(28 25% 23% / 0.1), 0 1px 2px 0 hsl(28 25% 23% / 0.06);
+    --shadow-lg: 0 10px 15px -3px hsl(28 25% 23% / 0.1), 0 4px 6px -2px hsl(28 25% 23% / 0.05);
+    --shadow-focus: 0 0 0 3px hsl(220 13% 18% / 0.1);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,7 +81,7 @@
     --popover: 30 41 59;
     --popover-foreground: 248 250 252;
 
-    --primary: 96 165 250;
+    --primary: 148 163 184;
     --primary-foreground: 15 23 42;
 
     --secondary: 100 116 139;
@@ -90,8 +90,8 @@
     --muted: 51 65 85;
     --muted-foreground: 148 163 184;
 
-    --accent: 251 146 60;
-    --accent-foreground: 15 23 42;
+    --accent: 120 113 108;
+    --accent-foreground: 248 250 252;
 
     --destructive: 248 113 113;
     --destructive-foreground: 15 23 42;

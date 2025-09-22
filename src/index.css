@@ -7,41 +7,41 @@
 @layer base {
   :root {
     /* Professional metallurgy theme - darker rock and mineral tones */
-    --background: 240 240 237;
-    --foreground: 41 37 36;
+    --background: 0 0% 94%;
+    --foreground: 20 6% 20%;
 
     /* Card colors */
-    --card: 255 255 255;
-    --card-foreground: 41 37 36;
+    --card: 0 0% 100%;
+    --card-foreground: 20 6% 20%;
 
     /* Interactive elements */
-    --popover: 255 255 255;
-    --popover-foreground: 41 37 36;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 6% 20%;
 
     /* Primary - Dark granite gray */
-    --primary: 64 64 64;
-    --primary-foreground: 255 255 255;
+    --primary: 0 0% 25%;
+    --primary-foreground: 0 0% 100%;
 
     /* Secondary - Weathered stone gray */
-    --secondary: 82 82 91;
-    --secondary-foreground: 255 255 255;
+    --secondary: 0 0% 35%;
+    --secondary-foreground: 0 0% 100%;
 
     /* Muted tones - ensuring proper grey tones */
-    --muted: 230 230 233;
-    --muted-foreground: 100 100 100;
+    --muted: 0 0% 90%;
+    --muted-foreground: 0 0% 40%;
 
     /* Accent - Mineral gray */
-    --accent: 115 115 115;
-    --accent-foreground: 255 255 255;
+    --accent: 0 0% 45%;
+    --accent-foreground: 0 0% 100%;
 
     /* Destructive */
-    --destructive: 220 38 38;
-    --destructive-foreground: 255 255 255;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
     /* Borders and inputs */
-    --border: 214 211 209;
-    --input: 214 211 209;
-    --ring: 71 85 105;
+    --border: 20 6% 85%;
+    --input: 20 6% 85%;
+    --ring: 215 16% 47%;
 
     /* Radius */
     --radius: 0.75rem;

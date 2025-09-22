@@ -79,7 +79,7 @@ export const LCAForm = ({ onSubmit, loading }: LCAFormProps) => {
   };
 
   return (
-    <Card className="professional-card secondary-gradient shadow-lg">
+    <Card className="professional-card blue-gradient shadow-lg">
       <CardHeader className="text-center pb-8">
         <div className="flex justify-center mb-4">
           <div className="w-16 h-16 rounded-full gradient-bg flex items-center justify-center">

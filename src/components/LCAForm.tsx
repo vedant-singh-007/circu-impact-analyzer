@@ -98,7 +98,7 @@ export const LCAForm = ({ onSubmit, loading }: LCAFormProps) => {
         <form onSubmit={handleSubmit} className="space-y-8">
           
           {/* Primary Source Selection */}
-          <div className="space-y-6 p-6 bg-green-50 rounded-lg border border-green-200">
+          <div className="space-y-6 p-6 bg-muted/50 rounded-lg border border-muted">
             <h3 className="text-xl font-semibold text-foreground">Material Source</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="space-y-2">
